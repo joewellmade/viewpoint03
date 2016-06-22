@@ -877,7 +877,7 @@ button {
   display: none !important; }
 
 .row {
-  max-width: 75rem;
+  max-width: 87.5rem;
   margin-left: auto;
   margin-right: auto; }
   .row::before, .row::after {
@@ -1717,7 +1717,7 @@ a {
     border: 0; }
 
 hr {
-  max-width: 75rem;
+  max-width: 87.5rem;
   height: 0;
   border-right: 0;
   border-top: 0;
@@ -2952,7 +2952,7 @@ body.is-reveal-open {
   @media screen and (min-width: 40em) {
     .reveal {
       width: 600px;
-      max-width: 75rem; } }
+      max-width: 87.5rem; } }
   @media screen and (min-width: 40em) {
     .reveal .reveal {
       left: auto;
@@ -2963,15 +2963,15 @@ body.is-reveal-open {
   @media screen and (min-width: 40em) {
     .reveal.tiny {
       width: 30%;
-      max-width: 75rem; } }
+      max-width: 87.5rem; } }
   @media screen and (min-width: 40em) {
     .reveal.small {
       width: 50%;
-      max-width: 75rem; } }
+      max-width: 87.5rem; } }
   @media screen and (min-width: 40em) {
     .reveal.large {
       width: 90%;
-      max-width: 75rem; } }
+      max-width: 87.5rem; } }
   .reveal.full {
     top: 0;
     left: 0;
@@ -3857,9 +3857,6 @@ img.logo {
   margin: 120px auto; }
 
 .logo {
-  -webkit-filter: drop-shadow(0 0 50px #333);
-  filter: drop-shadow(0 0 50px #333);
-  /* Same syntax as box-shadow */
   padding: 0 10px; }
 
 .circle {
@@ -3881,6 +3878,11 @@ img.logo {
 
 .orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus {
   background-color: rgba(36, 47, 107, 0.85); }
+
+.header-background {
+  position: relative;
+  height: 25%;
+  margin-top: 50px; }
 
 .header {
   position: absolute;
